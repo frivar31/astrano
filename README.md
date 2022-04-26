@@ -1,9 +1,8 @@
 # astrano
 
 
-current list of landing page
+current list for landing page
 -	Youtube videos 
--	Make it able to add video .
 -	Landing page 
 -	Website name / domain (cost for that)
 -	Subscription – 
