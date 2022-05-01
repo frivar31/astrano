@@ -4,7 +4,7 @@ import './Header.scss'
 function Header() {
   return (
     <div className='header'> 
-        <a href='#'> <img src='assets/Astrano-logo.png' alt='' className='header-logo' /> </a>
+        <a href='index.html'> <img src='assets/new-astrano-logo.png' alt='' className='header-logo' /> </a>
 
         <div className='nav-links'>
           <ul className='nav-bar'> 
@@ -14,6 +14,9 @@ function Header() {
             <li> <a href='donate.html'>Donate</a></li>
           </ul>
         </div>
+
+        
+         <button className='button'> Training Astral </button>
     </div>
   )
 }

@@ -1,18 +1,27 @@
 .header {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     padding: 1% 2.5%;
-    background-color: lightyellow;
+    background-color: white;
 }
 
+.header button {
+    margin:0;
+    background-color: #fed497;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border:none;
+}
 .header-logo {
     width: 170px;
-    height: 50px;
+    height: 40px;
 }
 
-.nav-bar {
+.nav-bar  {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,14 +37,17 @@
 .nav-bar li a {
     text-decoration: none;
     font-size: 18px;
-    font-weight: 550;
     color:#9e9c90;
     transition: 0.3s  ease;
+    font-family: Rubik;
+    font-weight: 500;
+    
 }
+
 
 .nav-bar li a:hover,
 .nav-bar li a.active {
-    color:gold;
+    color:#fed497;
 
 }
 
@@ -44,7 +56,7 @@
     content: '';
     width: 30%;
     height: 2px;
-    background:gold;
+    background:#fed497;
     position: absolute;
     bottom: -4px;
     left: 20px;
