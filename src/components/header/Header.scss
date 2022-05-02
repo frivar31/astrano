@@ -5,20 +5,25 @@
     text-align: center;
     justify-content: space-between;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
-    padding: 1% 2.5%;
+    padding: 1.5% 2.5%;
     background-color: white;
 }
 
 .header button {
     margin:0;
     background-color: #fed497;
-    padding: 10px 15px;
+    padding: 20px 25px;
     border-radius: 10px;
     border:none;
+    font-size: xx-large;
+    font-family: Rubik;
+    font-weight: 500;
+
+
 }
 .header-logo {
-    width: 170px;
-    height: 40px;
+    width: 350px;
+    height: 75px;
 }
 
 .nav-bar  {
@@ -41,6 +46,7 @@
     transition: 0.3s  ease;
     font-family: Rubik;
     font-weight: 500;
+    font-size: xx-large;
     
 }
 
