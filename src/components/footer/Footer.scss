@@ -1,0 +1,85 @@
+.footer {
+    display:grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    row-gap: 10px;
+    padding: 40px 10%;
+
+    
+}
+
+.footer-section-1{
+    text-align: left;
+}
+
+.footer-section-1 p {
+    padding: 10px;
+}
+
+
+
+.footer-section-2 {
+    text-align: center;
+}
+
+.footer-section-2 h5, p {
+    padding: 10px;
+}
+
+.footer-section-3 {
+    text-align: center;
+}
+
+.footer-section-3 h5, p {
+    padding: 10px;
+}
+
+.footer-img {
+    width: 200px;
+    height: 50px
+}
+
+.footer-section-4 h5, p, form {
+    padding: 10px;
+}
+.footer-section-4 {
+    text-align: left;
+    position:relative;
+}
+
+.footer-form {
+    // width:max-content;
+    position:relative;
+    padding:20px;
+    margin:10px 0;
+}
+
+.footer-form input {
+    background-color: #fff4e6;
+    padding:15px;
+    width: fit-content;
+    position:absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    border:none;
+    border-radius:10px;
+    outline:none;
+}
+.footer-form button {
+    background-color: #fed497;
+    padding:15px;
+    border-radius: 10px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    border:none;
+    
+} 
+
+.media img {
+    width:30px;
+    height:30px;
+    margin: 20px 30px 20px 10px;
+}
+
