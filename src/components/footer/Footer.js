@@ -2,7 +2,7 @@ import './Footer.scss'
 
 function Footer() {
   return (
-
+// icons from https://simpleicons.org/
       <div className="footer">
         <div className="footer-section-1" >
             <img className="footer-img" src='assets/new-astrano-logo.png'/>
