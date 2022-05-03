@@ -50,12 +50,14 @@
     top: 50%;
     left: -100px;
     transform: translateY(-60%);
+    background-color: #fed497;
 
   }
   .next {
     top: 50%;
     right: -100px;
     transform: translateY(-60%);
+    background-color: #fed497;
   }
   
   
@@ -75,5 +77,5 @@
     background: #f1f1f1;
   }
   .dot.active {
-    background: rgb(32, 32, 32);
+    background: #fed497;
   }
