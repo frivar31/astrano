@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Header.scss'
 import HeaderList from './HeaderList';
 
+
 function Header() {
   const [selected, setSelected] = useState('/');
 
@@ -32,20 +33,15 @@ function Header() {
         <div className='nav-links'>
           <ul className='nav-bar'> 
           {list.map( (item) => (
+
             <HeaderList 
               title={item.title} 
               active={selected === item.id} 
               setSelected={setSelected} 
               id={item.id}
             />
+
           ))}
-
-{/* 
-
-            <li> <a className='active' href='/'>Home</a></li>
-            <li> <a href='/about'>About</a></li>
-            <li> <a href='/contact'>Contact</a></li>
-            <li> <a href='/donate'>Donate</a></li> */}
           </ul>
         </div>
 
