@@ -7,7 +7,7 @@ function ContactHero() {
   return (
     <div className='contact-section'>
         <div className='contact-details'>
-            <span>Get In Touch !</span>
+            <span>Get In Touch!</span>
             <h2>Visit one of our agency location or contact us today! </h2>
             <h2> Head office </h2>
             <li className='contact-list'>
