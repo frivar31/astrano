@@ -1,15 +1,17 @@
+// media svg icons from https://simpleicons.org/
+
 import './Footer.scss'
 
 function Footer() {
   return (
-// icons from https://simpleicons.org/
-      <div className="footer">
-        <div className="footer-section-1" >
+
+        <div className="footer">
+          <div className="footer-section-1" >
             <img className="footer-img" src='assets/new-astrano-logo.png'/>
               <p>We are not just another training program. We help you connect to people, talk about experiences and it's all about being human.</p>
               <p>Copyright ©2022. All Rights Reserved.</p>
           </div>
-          <div className="footer-section-2" >
+            <div className="footer-section-2" >
             <h5>Products</h5>
               <p>Mobile app</p>
               <p>Community</p>
@@ -17,7 +19,7 @@ function Footer() {
               <p>Try for free</p>
               <p>Careers</p>
           </div>
-          <div className="footer-section-3" >
+            <div className="footer-section-3" >
             <h5>About us</h5>
               <p>Help</p>
               <p>Drop us a line</p>
@@ -25,7 +27,7 @@ function Footer() {
               <p>Our Blog</p>
               <p>Features</p>
           </div>
-          <div className="footer-section-4" >
+            <div className="footer-section-4" >
             <h5>Get early access to astrano.</h5>
               <p>Be a part of the movement.</p>
               <p>Join our newsletter for updates! We promise we won't spam you :)</p>
@@ -33,7 +35,7 @@ function Footer() {
                 <input placeholder='email'/>
                 <button>Sign me up</button>
               </form>
-            <div className='media'>
+              <div className='media'>
               <img src='assets/instagram.svg'/>
               <img src='assets/facebook.svg'/>
               <img src='assets/twitter.svg'/>

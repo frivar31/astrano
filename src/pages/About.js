@@ -1,11 +1,10 @@
 import React from 'react'
-import Header from '../components/header/Header'
 
 function About() {
   return (
-    <div>
+     <div>
         
-        <div>about</div>
+         <div>about</div>
         
     </div>
   )

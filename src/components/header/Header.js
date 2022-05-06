@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 import './Header.scss'
 import HeaderList from './HeaderList';
 
@@ -27,10 +28,10 @@ function Header() {
 
   
   return (
-    <div className='header'> 
-        <a href='index.html'> <img src='assets/new-astrano-logo.png' alt='' className='header-logo' /> </a>
+      <div className='header'> 
+        <Link to="/"> <img src='assets/new-astrano-logo.png' alt='' className='header-logo' /> </Link>
 
-        <div className='nav-links'>
+          <div className='nav-links'>
           <ul className='nav-bar'> 
           {list.map( (item) => (
 

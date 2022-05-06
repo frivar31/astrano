@@ -4,6 +4,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Donate from './pages/Donate';
 import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
               <Route  path="/about" element={<About/>} />
               <Route  path="/donate" element={<Donate/>} />
           </Routes>
-  
+      <Footer/>  
 
     </Router>
   );

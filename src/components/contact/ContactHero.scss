@@ -1,0 +1,51 @@
+.contact-section {
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.contact-details {
+    width: 35%;
+    margin-left:5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.contact-details span {
+    font-size: 12px;
+}
+
+
+.contact-details h2 {
+    font-size:26px;
+    line-height:35px;
+    padding: 10px 0px;
+}
+
+
+.contact-details h4 {
+    font-size:16px;
+
+    
+    
+}
+
+
+.contact-details li {
+    list-style: none;
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.contact-details li img {
+    margin: 0 10px 0 0;
+}
+
+.contact-list img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-map iframe {
+    border: 0;
+}

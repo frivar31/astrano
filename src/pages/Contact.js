@@ -1,9 +1,13 @@
 import React from 'react'
-import Header from '../components/header/Header'
+import ContactHero from '../components/contact/ContactHero'
+import Form from '../components/form/Form'
 
 function Contact() {
   return (
-        <div>Contact</div>    
+        <div>
+          <ContactHero/>
+          <Form/>
+        </div>    
 
   )
 }
