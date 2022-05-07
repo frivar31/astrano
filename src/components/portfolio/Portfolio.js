@@ -38,7 +38,7 @@ function Portfolio() {
                             className={slideIndex === index + 1 ? 'slide active-anim' : 'slide'}
                         >
 
-                            <img src={`./assets/slider-img-${index + 1}.jpg`}/>
+                            <img src={`./assets/slider-img-${index + 1}.jpg`} alt=''/>
                         </div>
                     )
                 })}

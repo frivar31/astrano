@@ -5,11 +5,11 @@ import Contact from './pages/Contact';
 import Donate from './pages/Donate';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
-
+import { browserHistory } from 'react-router'
 
 function App() {
   return (
-    <Router>
+    <Router history={browserHistory}>
       <Header/>
           <Routes>       
               <Route  path="/"  element={<Home/>} />

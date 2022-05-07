@@ -7,7 +7,7 @@ function Footer() {
 
         <div className="footer">
           <div className="footer-section-1" >
-            <img className="footer-img" src='assets/new-astrano-logo.png'/>
+            <img className="footer-img" src='assets/new-astrano-logo.png' alt=''/>
               <p>We are not just another training program. We help you connect to people, talk about experiences and it's all about being human.</p>
               <p>Copyright ©2022. All Rights Reserved.</p>
           </div>
@@ -36,9 +36,9 @@ function Footer() {
                 <button>Sign me up</button>
               </form>
               <div className='media'>
-              <img src='assets/instagram.svg'/>
-              <img src='assets/facebook.svg'/>
-              <img src='assets/twitter.svg'/>
+              <img src='assets/instagram.svg' alt=''/>
+              <img src='assets/facebook.svg' alt=''/>
+              <img src='assets/twitter.svg' alt=''/>
             </div>
               
           </div>

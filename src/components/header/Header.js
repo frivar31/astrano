@@ -6,7 +6,9 @@ import HeaderList from './HeaderList';
 
 function Header() {
   const [selected, setSelected] = useState('/');
+  
 
+  
   const list = [
     {
       id: '/',
@@ -26,7 +28,9 @@ function Header() {
     },
   ];
 
+
   
+
   return (
       <div className='header'> 
         <Link to="/"> <img src='assets/new-astrano-logo.png' alt='' className='header-logo' /> </Link>
@@ -40,6 +44,7 @@ function Header() {
               active={selected === item.id} 
               setSelected={setSelected} 
               id={item.id}
+              selected={selected}
             />
 
           ))}
@@ -47,7 +52,7 @@ function Header() {
         </div>
 
         
-         <button className='button'> Training Astral </button>
+         <Link to='/training'><button className='button'> Training Astral </button></Link>
     </div>
   )
 }

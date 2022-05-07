@@ -5,7 +5,7 @@ function Banner() {
   return (
       <div className='banner-img'>
       
-      <img src='assets/footer_banner.png'/>
+      <img src='assets/footer_banner.png' alt=''/>
     
     </div>
   )
