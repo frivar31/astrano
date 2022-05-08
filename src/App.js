@@ -5,17 +5,16 @@ import Contact from './pages/Contact';
 import Donate from './pages/Donate';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
-import { browserHistory } from 'react-router'
+
 
 function App() {
   return (
-    <Router history={browserHistory}>
-      <Header/>
+    <Router >
           <Routes>       
-              <Route  path="/"  element={<Home/>} />
-              <Route  path="/contact" element={<Contact/>} />
-              <Route  path="/about" element={<About/>} />
-              <Route  path="/donate" element={<Donate/>} />
+              <Route  path="/"  element={<><Header/><Home/></>} />
+              <Route  path="/contact" element={<><Header/><Contact/></>} />
+              <Route  path="/about" element={<><Header/><About/> </> }/>
+              <Route  path="/donate" element={<><Header/><Donate/></> } />
           </Routes>
       <Footer/>  
 

@@ -6,6 +6,7 @@ import Portfolio from '../components/portfolio/Portfolio'
 function Home() {
   return (
      <div>
+       
         <Hero/>
         <Portfolio/>
         <Banner/>
