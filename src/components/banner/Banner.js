@@ -6,6 +6,8 @@ function Banner() {
       <div className='banner-img'>
       
       <img src='assets/footer_banner.png' alt=''/>
+      <h1>Donate to our chairity today! </h1>
+      <button> Donate </button>
     
     </div>
   )
