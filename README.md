@@ -1,9 +1,13 @@
 # astrano
-
+current functionality
+- contact page
+- Home page
+- About page
+- 
 
 current list for landing page
 -	Youtube videos 
--	Landing page 
+-	Landing page  
 -	Website name / domain (cost for that)
 -	Subscription – 
 -	Hosting courses (SEPARATE FROM youtube videos)
