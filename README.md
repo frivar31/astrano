@@ -3,7 +3,6 @@ current functionality
 - contact page
 - Home page
 - About page
-- 
 
 current list for landing page
 -	Youtube videos 
