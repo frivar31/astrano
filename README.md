@@ -1,6 +1,7 @@
 # astrano
 
 deployed  version (unfinished) : https://astrano.vercel.app/
+
 current functionality
 - contact page
 - Home page
