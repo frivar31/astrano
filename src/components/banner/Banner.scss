@@ -4,12 +4,15 @@
     position:relative;
 }
 
-.banner-img img {
+.banner img {
     width:60%;
     height:60%;
-    
 }
 
+.banner-button:hover {
+    transform: scale(110%);
+    cursor:pointer;
+}
 .banner-img h1 {
     position: absolute;
     top:25%;
