@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Link, useLocation } from 'react-router-dom';
+
 import './Header.scss'
 
 function Header() {
   let location = useLocation();
-  console.log('this is pathname', location.pathname);
 
   const list = [
     {

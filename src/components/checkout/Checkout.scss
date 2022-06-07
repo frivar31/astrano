@@ -1,0 +1,34 @@
+.checkout-form {
+    text-align: center;
+    padding: 10px;
+    font-weight:100;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.checkout-form h1{
+    text-align: center;
+    padding: 10px;
+    font-weight:100;
+}
+
+.checkout-input{
+    display:flex;
+    align-items: center;
+    font-weight:100;
+    margin: 10px;
+    outline:none;
+    
+}
+
+
+.checkout-button{
+    display:flex;
+    text-align: center;
+    padding: 10px;
+    margin:auto;
+    
+}
