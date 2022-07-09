@@ -14,8 +14,6 @@ current list for landing page
 -	Subscription – 
 -	Hosting courses (SEPARATE FROM youtube videos)
 o	section (button) 
--	Home 
--	About HOME PAGE
 o	Video (Series of videos of events) polar fest 1 / 2
 -	Support
 o	Who we are.
@@ -25,7 +23,6 @@ o	PLUG IN – website. To manage a course.
 -	Collecting donation ( donate )
 o	Donation link 
 o	Subscription / 
--	Contact 
 -	Email collection / phone numbers / email list POSSIBLY (ADD notification)- MAIL CHIMP
 -	Data generation 
 -	Home
