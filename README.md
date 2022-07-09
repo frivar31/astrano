@@ -7,6 +7,7 @@ current functionality
 - Home page
 - About page
 - Donation page
+- Training page (unfinished)
 
 current list for landing page
 -	Youtube videos 
