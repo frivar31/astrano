@@ -24,5 +24,6 @@ o	PLUG IN – website. To manage a course.
 o	Subscription / 
 -	Email collection / phone numbers / email list POSSIBLY (ADD notification)- MAIL CHIMP
 -	Data generation 
+- Mobile support
 
 
