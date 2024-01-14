@@ -1,20 +1,22 @@
 import React from 'react'
 import './Form.scss'
-
+<script src="https://web3forms.com/client/script.js" async defer></script>
 
 function Form() {
+    
   return (
       
     <div className='form-section'>
         <div className='form-details'>
-            <form action=''>
+            <form action="https://api.web3forms.com/submit" method="POST">                
                 <span>Leave a message</span>
-                <h2> We love to hear from you!</h2>
-                <input type='text' placeholder='Name'></input>
-                <input type='text' placeholder='E-mail'></input>
-                <input type='text' placeholder='Subject'></input>
+                <h2> We love to hear from you!</h2>                
+                <input type='text' placeholder='Name'required></input>
+                <input type='text' placeholder='E-mail' required></input>
+                <input type='text' placeholder='Subject'required></input>
                 <textarea name='' id='' cols='30' rows='10' placeholder='Message'></textarea>
-                <button className='button'
+                
+                <button type="submit" className='button'
                 onClick={(event) => {
                     // // stop the browser from changing the URL and requesting the new document
                     // event.preventDefault();
@@ -23,6 +25,7 @@ function Form() {
                   }}
                 
                 >Submit</button>
+                <input type="hidden" name="access_key" value="c020aaa7-e635-4b4f-82a4-7a31d97d517e"></input>
             </form>
         </div>
         <div className='form-people'>
