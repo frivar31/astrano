@@ -1,6 +1,5 @@
 import React from 'react'
 import './Form.scss'
-<script src="https://web3forms.com/client/script.js" async defer></script>
 
 function Form() {
     
@@ -8,13 +7,14 @@ function Form() {
       
     <div className='form-section'>
         <div className='form-details'>
-            <form action="https://api.web3forms.com/submit" method="POST">                
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input  type="hidden" name="access_key" value="09c906f2-0002-4609-9bab-3bb14da77344"></input>                
                 <span>Leave a message</span>
                 <h2> We love to hear from you!</h2>                
-                <input type='text' placeholder='Name'required></input>
-                <input type='text' placeholder='E-mail' required></input>
-                <input type='text' placeholder='Subject'required></input>
-                <textarea name='' id='' cols='30' rows='10' placeholder='Message'></textarea>
+                <input type='text' name="name" placeholder='Name'required></input>
+                <input type='text' name="email" placeholder='E-mail' required></input>
+                <input type='text' name="subject" placeholder='Subject'required></input>
+                <textarea name='message' id='' cols='30' rows='10' placeholder='Message'></textarea>
                 
                 <button type="submit" className='button'
                 onClick={(event) => {
@@ -25,7 +25,7 @@ function Form() {
                   }}
                 
                 >Submit</button>
-                <input type="hidden" name="access_key" value="c020aaa7-e635-4b4f-82a4-7a31d97d517e"></input>
+                
             </form>
         </div>
         <div className='form-people'>
@@ -60,5 +60,7 @@ function Form() {
     </div>
   )
 }
+
+<script src="https://web3forms.com/client/script.js" async defer></script>
 
 export default Form
